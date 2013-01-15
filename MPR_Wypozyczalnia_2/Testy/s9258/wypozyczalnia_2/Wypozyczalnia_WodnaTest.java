@@ -125,7 +125,7 @@ public class Wypozyczalnia_WodnaTest {
 	}
 
 	@Test
-	public void testZnajdzSprzetWodny_po_gatunku() 
+	public void testZnajdzSprzetWodny_po_typie() 
 	{
 		assertNull(Test.znajdzSprzetWodny_po_typie("typ3"));
 		assertNotNull(Test.znajdzSprzetWodny_po_typie("typ1"));
@@ -172,7 +172,7 @@ public class Wypozyczalnia_WodnaTest {
 	}
 
 	@Test
-	public void testPokazSprzetyWodne_po_gatunku()
+	public void testPokazSprzetyWodne_po_typie()
 	{
 		assertFalse(sprzetwodny.size()==1);
 		assertTrue(sprzetwodny.size()==2);

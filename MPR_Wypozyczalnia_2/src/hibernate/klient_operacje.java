@@ -30,16 +30,16 @@ public class klient_operacje {
         klient Iwona = new klient();
         klient Marzena = new klient();
         
-        Krzysztof.setNumer_klienta(1);
+       // Krzysztof.setNumer_klienta(1);
         Krzysztof.setImie_klienta("Krzysztof");
         Krzysztof.setNazwisko_klienta("Raczkowski");
          
-        Iwona.setNumer_klienta(2);
+       // Iwona.setNumer_klienta(2);
         Iwona.setImie_klienta("Iwona");
         Iwona.setNazwisko_klienta("Testowa");
         
         
-        Marzena.setNumer_klienta(3);
+      //  Marzena.setNumer_klienta(3);
          Marzena.setImie_klienta("Marzena");
         Marzena.setNazwisko_klienta("Hibernatowa");
         

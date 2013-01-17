@@ -2,6 +2,7 @@ package hibernate;
 
 import javax.persistence.Embeddable;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 
@@ -13,6 +14,7 @@ private String imie_klienta;
 private String nazwisko_klienta;
 
 @Id // wskazanie primary key
+@GeneratedValue //automatyczne generowanie primary key
 public int getNumer_klienta() 
 
 {

@@ -29,6 +29,8 @@
         <!-- Echo all executed SQL to stdout -->
         <property name="show_sql">true</property>
 
+		<mapping class="s9258.wypozyczalnia_2.Klient" />
+
       
    </session-factory>
 

@@ -3,6 +3,8 @@ package s9258.wypozyczalnia_2;
 import java.util.ArrayList;
 import java.util.List;
 
+//import org.hibernate.cfg
+
 
 
 public class Main {
@@ -53,6 +55,14 @@ nowa.wyswietlSprzetyWodne();
 System.out.println("-----------------------------");
 nowa.wyswietlKlienci();
 System.out.println("-----------------------------");
+
+klient_operacje Klient_operacje = new klient_operacje();
+
+Klient k = new Klient(0,null,null);
+k.setImie("krzysztof");
+k.setNazwisko("raczkowski");
+
+Klient_operacje.saveKlient(k);
 
 
 }

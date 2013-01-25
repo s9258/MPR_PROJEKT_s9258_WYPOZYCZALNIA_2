@@ -1,7 +1,12 @@
 package s9258.wypozyczalnia_2;
 
+import javax.persistence.Embeddable;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 
 
+@Entity //wskazanie hibernate, ze ma utworzyc tabele z klasy klient_hibernate
 public class Klient {
 
 private int Numer_klienta;
@@ -16,7 +21,8 @@ this.Imie = imie;
 this.Nazwisko = nazwisko;
 }
   
-
+@Id // wskazanie primary key
+@GeneratedValue //automatyczne generowanie primary key
 
 public int getNumer_klienta()
 {
